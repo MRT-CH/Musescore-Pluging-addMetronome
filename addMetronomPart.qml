@@ -42,7 +42,7 @@ function addBeat(c, pitchVal) {
       curScore.startCmd()
       curScore.appendPart("wood-blocks")
       var idx = curScore.nstaves-1
-      log = true
+      log = false
       // curScore.parts[idx].isMetro = true
    beatPattern = {
     "1": [76],
